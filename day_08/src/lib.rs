@@ -24,31 +24,6 @@ use std::collections::HashSet;
 pub fn day8(input: &str, partb: bool) -> i64{
     let unique_segments : [u8; 10] = [6,2,5,5,4,5,6,3,7,6];
 
-    // if part_b == false {
-    //     let mut input_values = vec![];
-    //     let mut output_values = vec![];
-    //     let lines : Vec<&str> = input.split_terminator('\n').collect();
-    //     for line in lines.iter(){
-    //         let values : Vec<&str> = line.split('|').collect();
-    //         for input_val in values[0].split_ascii_whitespace(){
-    //             input_values.push(input_val.trim());
-    //         }
-
-    //         for output_val in values[1].split_ascii_whitespace(){
-    //             output_values.push(output_val.trim());
-    //         }
-    //     }
-
-    //     let mut part_a = 0;
-    //     for output in output_values.iter(){
-    //         if output.len() != 5 && output.len() != 6 {
-
-    //         }
-
-    //     }
-    //     return part_a;
-    // }
-
     let lines : Vec<&str> = input.split_terminator('\n').collect();
     let mut part_b : i64 = 0;
     let mut part_a : i64 = 0;
