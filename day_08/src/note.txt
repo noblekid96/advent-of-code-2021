@@ -1,8 +1,10 @@
 5s - 2,3,5
 6s - 0,9,6
 
-4 is subset of 9 but not 0 (missing middle)
-1 is subset of 3 but not 2 and 5
-4 and 5 has 3 common chars
+Strategy for 6s:
+4 is subset of 9 but not 0 and 6 (missing middle)
+7 is subset of 0 but not 6
+
+Strategy for 5s:
 4 and 2 has 2 common chars
-4 and 3 has 3 common chars
+1 is subset of 3 but not 2 and 5
